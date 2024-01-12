@@ -2,8 +2,9 @@ package org.example.tobot;
 
 
 import lombok.RequiredArgsConstructor;
-import org.example.tobot.dto.CentralRussianBankService;
+import org.example.tobot.service.CentralRussianBankService;
 import org.example.tobot.dto.ValuteCursOnDate;
+import org.example.tobot.service.BotService;
 import org.springframework.stereotype.Component;
 
 import javax.xml.datatype.DatatypeConfigurationException;
