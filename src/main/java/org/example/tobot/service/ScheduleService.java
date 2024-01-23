@@ -1,6 +1,5 @@
 package org.example.tobot.service;
 
-import lombok.NonNull;
 import org.example.tobot.entity.ActiveChat;
 import org.example.tobot.repository.ActiveChatRepository;
 import org.example.tobot.dto.ValuteCursOnDate;
@@ -18,7 +17,7 @@ import java.util.stream.Collectors;
 
 
 
-Component
+@Component
 @RequiredArgsConstructor
 @Slf4j
 public class ScheduleService {
