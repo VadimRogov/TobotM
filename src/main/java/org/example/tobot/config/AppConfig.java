@@ -1,6 +1,7 @@
 package org.example.tobot.config;
 
 import org.example.tobot.dto.*;
+import org.example.tobot.service.CentralRussianBankService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.oxm.jaxb.Jaxb2Marshaller;
@@ -23,7 +24,7 @@ public class AppConfig {
         cbrService.setMessageFactory(newSoapMessageFactory);
 
         jaxb2Marshaller.setClassesToBeBound(
-                GetCursOnDateXml.class,
+                GetCursOnDateXML.class,
                 GetCursOnDateXmlResponse.class,
                 GetCursOnDateXmlResult.class,
                 ValuteCursOnDate.class);

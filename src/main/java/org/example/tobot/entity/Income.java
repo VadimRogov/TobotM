@@ -1,4 +1,4 @@
-package org.example.tobot;
+package org.example.tobot.entity;
 
 import lombok.Data;
 
@@ -6,7 +6,7 @@ import javax.persistence.*;
 import java.math.BigDecimal;
 
 @Entity
-@Table(name = "INCOMES")
+@Table(name = "INCOME")
 @Data
 public class Income {
 

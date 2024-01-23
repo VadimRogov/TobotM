@@ -1,9 +1,10 @@
-package org.example.tobot;
+package org.example.tobot.service;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
-import org.example.tobot.dto.CentralRussianBankService;
+import org.example.tobot.entity.ActiveChat;
+import org.example.tobot.repository.ActiveChatRepository;
 import org.example.tobot.dto.ValuteCursOnDate;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;

@@ -1,6 +1,7 @@
-package org.example.tobot;
+package org.example.tobot.repository;
 
 
+import org.example.tobot.entity.ActiveChat;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 import java.util.Optional;

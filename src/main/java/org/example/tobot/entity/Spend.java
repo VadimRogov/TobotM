@@ -1,4 +1,4 @@
-package org.example.tobot;
+package org.example.tobot.entity;
 
 import lombok.Data;
 
