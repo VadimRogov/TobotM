@@ -1,13 +1,12 @@
 package org.example.tobot.service;
 
-import lombok.RequiredArgsConstructor;
 import org.example.tobot.entity.Income;
 import org.example.tobot.repository.IncomeRepository;
 import org.example.tobot.entity.Spend;
 import org.example.tobot.repository.SpendRepository;
+import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import java.math.BigDecimal;
-
 @Service
 @RequiredArgsConstructor
 public class FinanceService {

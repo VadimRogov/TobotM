@@ -12,6 +12,7 @@ import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.List;
 
+
 public class CentralRussianBankService extends WebServiceTemplate {
 
     @Value("${cbr.api.url}")

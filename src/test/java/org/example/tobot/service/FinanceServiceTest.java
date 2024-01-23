@@ -1,11 +1,11 @@
 package org.example.tobot.service;
 
+import org.example.tobot.repository.IncomeRepository;
+import org.example.tobot.repository.SpendRepository;
 import org.junit.jupiter.api.*;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.example.tobot.repository.IncomeRepository;
-import org.example.tobot.repository.SpendRepository;
 
 /**
  * Класс-тест для тестирования FinanceService

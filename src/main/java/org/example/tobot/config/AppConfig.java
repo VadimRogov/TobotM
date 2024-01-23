@@ -7,7 +7,6 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.oxm.jaxb.Jaxb2Marshaller;
 import org.springframework.web.filter.CharacterEncodingFilter;
 import org.springframework.ws.soap.saaj.SaajSoapMessageFactory;
-
 import javax.xml.soap.MessageFactory;
 import javax.xml.soap.SOAPConstants;
 import javax.xml.soap.SOAPException;
